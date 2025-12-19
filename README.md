@@ -63,5 +63,6 @@ The template exports one function `basic-report` with the following named parame
 -  `compact-mode (boolean)`: If true, there is no TOC and no separate title page. All title information is displayed on the first text page (default is `false`)
 -  `heading-color`: The color of the title and all headings (default is `blue`)
 -  `heading-font`: The font used for the title and all headings (default is `"Ubuntu"`; recommended and tested alternatives are "Lato", "Fira Sans" or "Source Sans Pro")
+-  `datetime-fmt`: The datetime format used for the title page (default is `"[day].[month].[year]"`)
 
 Have a look at the example file [`main.typ`](https://github.com/roland-KA/basic-report-typst-template/blob/main/template/main.typ) whithin the [`template`](https://github.com/roland-KA/basic-report-typst-template/tree/main/template) directory on how to use the `basic-report`-function with these parameters.
