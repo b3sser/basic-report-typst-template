@@ -89,7 +89,7 @@
         text(font: heading-font, size: label-size,
           author + "\n" + 
           affiliation + ", " + 
-          datetime.today().display("[day].[month].[year]")
+          datetime.today().display(datetime-fmt)
         )  
       ),
     )
