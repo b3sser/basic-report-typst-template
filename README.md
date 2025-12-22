@@ -42,8 +42,6 @@ Typst will create a new directory with all the files needed to get you started.
 All three recommendations are pre-installed in the online version of Typst. If you want to use them on your local computer, you can get them from Google Fonts.
   
 
-
-
 ## Packages Used
 
 The [Hydra package](https://github.com/tingerrr/hydra) is used to display the current heading within the header.
@@ -66,3 +64,29 @@ The template exports one function `basic-report` with the following named parame
 -  `datetime-fmt`: The datetime format used for the title page (default is `"[day].[month].[year]"`)
 
 Have a look at the example file [`main.typ`](https://github.com/roland-KA/basic-report-typst-template/blob/main/template/main.typ) whithin the [`template`](https://github.com/roland-KA/basic-report-typst-template/tree/main/template) directory on how to use the `basic-report`-function with these parameters.
+
+## Contributing
+
+Contributions are welcome! To make the process as smooth as possible for everyone, please follow this workflow.
+
+**Important:** Please **never work directly on the `main` branch** of your fork.
+Instead, create a dedicated branch for every change (feature or bugfix). This keeps your fork clean and makes it much easier for you to sync with the original repository later without conflicts.
+
+### Branch Naming Convention
+
+Please use descriptive names for your branches and follow these naming conventions:
+* `feat/...` for new features (e.g., `feat/add-dark-mode`)
+* `fix/...` for bug fixes (e.g., `fix/login-error`)
+* `docs/...` for documentation changes (e.g., `docs/update-readme`)
+
+### Workflow
+
+1.  Update your local `main` branch with the upstream repository.
+2.  Create a new branch for your task:
+    ```bash
+    git checkout -b feat/my-new-feature
+    ```
+3.  Make your changes and commit them.
+4.  Push the branch to your fork and submit the Pull Request from there.
+
+Thanks you for your help!
