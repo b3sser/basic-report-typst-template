@@ -189,7 +189,7 @@
       } else if language == "ar" {
         "المحتويات"
       } else {
-        "Contents"
+        auto
       },
       indent: auto,
     )
